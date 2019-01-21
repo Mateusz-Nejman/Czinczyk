@@ -1,0 +1,83 @@
+@font-face
+{
+    font-family: "Bevan";
+    src: url("content/Bevan.ttf");
+}
+
+@font-face
+{
+    font-family: "Blogger";
+    src: url("content/BloggerSans-Light.otf");
+}
+
+@font-face
+{
+    font-family: "Roboto";
+    src: url("content/Roboto.ttf");
+}
+
+body
+{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: #000000;
+    color:#ffffff;
+    font-family: "Blogger";
+}
+
+header
+{
+    padding-left:111px;
+    padding-top:8px;
+    font-family:"Bevan";
+    color:#ffffff;
+    font-size:60px;
+}
+.content
+{
+    padding-left:8px;
+    padding-right:8px;
+    width:504px;
+}
+
+#center
+ {
+     width:520px;
+     margin:auto;
+     align:center;
+ }
+table, th, td
+{
+    border: 1px solid white;
+    border-collapse: collapse;
+
+}
+
+p
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:520px;
+}
+
+input[type=submit]
+{
+    width: 260px;
+    height: 64px;
+    text-align:center;
+    color:#000000;
+    background: url("content/buttonNormal.png");
+    font-family: "Blogger";
+    font-size:32px;
+}
+
+#ads
+{
+    display:none;
+}
+
+#ads_bottom_static
+{
+    display:none;
+}
